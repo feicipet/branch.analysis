@@ -5,7 +5,7 @@ curl -XPUT "http://localhost:9200/cfmresponse" -d'
         "properties" : {
             "ProcessDatetime" : {
                 "type" : "date",
-                "format" : "dd/MM/yyyy HH:mm:ss Z"
+                "format" : "dd/MM/yyyy HH:mm:ss Z||epoch_millis"
             },
             "TransactionID" : {
                 "type" : "string",
@@ -24,11 +24,11 @@ curl -XPUT "http://localhost:9200/cfmresponse" -d'
             },
             "ResponseStartTime" : {
                 "type" : "date",
-                "format" : "dd/MM/yyyy HH:mm:ss Z"
+                "format" : "dd/MM/yyyy HH:mm:ss Z||epoch_millis"
             },
             "ResponseEndTime" : {
                 "type" : "date",
-                "format" : "dd/MM/yyyy HH:mm:ss Z"
+                "format" : "dd/MM/yyyy HH:mm:ss Z||epoch_millis"
             },
             "ResponseQ1" : {
                 "type" : "integer"
@@ -56,7 +56,7 @@ curl -XPUT "http://localhost:9200/cfmresponse" -d'
             },
             "TransactionDatetime" : {
                 "type" : "date",
-                "format" : "dd/MM/yyyy HH:mm:ss Z"
+                "format" : "dd/MM/yyyy HH:mm:ss Z||epoch_millis"
             },
             "TransactionFileName" : {
                 "type" : "string",
@@ -143,7 +143,7 @@ curl -XPUT "http://localhost:9200/cfmresponse" -d'
             },
             "InvitationTime" : {
                 "type" : "date",
-                "format" : "dd/MM/yyyy HH:mm:ss Z"
+                "format" : "dd/MM/yyyy HH:mm:ss Z||epoch_millis"
             }
         }
       }
