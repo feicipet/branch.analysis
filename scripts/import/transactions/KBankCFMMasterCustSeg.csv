@@ -1,0 +1,13 @@
+PC,02.Affluent,RBS
+MI,03.Middle Income,RBS
+TC,04.Mass,RBS
+RO,05.Other Retail,RBS
+OT,08.Other Corporate-SME,SME
+LM,09.SME-MEDIUM,SME
+UM,09.SME-MEDIUM,SME
+SM,10.SME-SMALL,SME
+XS,11.Micro Business,SME
+BB,12.Other SME,SME
+SO,12.Other SME,SME
+MB,06.Multi-Corporate,CBS
+CB,07.Corporate,CBS
